@@ -199,4 +199,46 @@ body {
   width: 1px !important;
   overflow: hidden;
 }
+
+@font-face {
+  font-family: 'bebas_neueregular';
+  src: url("../fonts/bebasneue_regular.woff2") format("woff2"), url("../fonts/bebasneue_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bebas_neuebold';
+  src: url("../fonts/bebasneue_bold.woff2") format("woff2"), url("../fonts/bebasneue_bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ciclefina';
+  src: url("../fonts/cicle_fina.woff2") format("woff2"), url("../fonts/cicle_fina.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ciclefina_italic';
+  src: url("../fonts/cicle_fina_italic.woff2") format("woff2"), url("../fonts/cicle_fina_italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborate-regularregular';
+  src: url("../fonts/colabreg.woff2") format("woff2"), url("../fonts/colabreg.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborate-thinregular';
+  src: url("../fonts/colabthi.woff2") format("woff2"), url("../fonts/colabthi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /*# sourceMappingURL=style.css.map */

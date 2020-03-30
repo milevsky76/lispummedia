@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue_regular.woff2') format('woff2'),
+         url('../fonts/bebasneue_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/bebasneue_bold.woff2') format('woff2'),
+         url('../fonts/bebasneue_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ciclefina';
+    src: url('../fonts/cicle_fina.woff2') format('woff2'),
+         url('../fonts/cicle_fina.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ciclefina_italic';
+    src: url('../fonts/cicle_fina_italic.woff2') format('woff2'),
+         url('../fonts/cicle_fina_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'colaborate-regularregular';
+    src: url('../fonts/colabreg.woff2') format('woff2'),
+         url('../fonts/colabreg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'colaborate-thinregular';
+    src: url('../fonts/colabthi.woff2') format('woff2'),
+         url('../fonts/colabthi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin BebasR {
+    font-family: 'bebas_neueregular';
+}
+
+@mixin BebasB {
+    font-family: 'bebas_neuebold';
+}
+
+@mixin Fina {
+    font-family: 'ciclefina';
+}
+
+@mixin FinaI {
+    font-family: 'ciclefina_italic';
+}
+
+@mixin ColoR {
+    font-family: 'colaborate-regularregular';
+}
+
+@mixin ColoT {
+    font-family: 'colaborate-thinregular';
+}
+
+@mixin SourceL {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+@mixin SourceR {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+@mixin SourceB {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
