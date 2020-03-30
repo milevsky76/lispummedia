@@ -241,4 +241,18 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+body {
+  font-family: 'ciclefina';
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 1044px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /*# sourceMappingURL=style.css.map */
