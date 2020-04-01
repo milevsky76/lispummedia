@@ -447,4 +447,241 @@ body {
   width: 8px;
   height: 16px;
 }
+
+.media {
+  width: 945px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-left: 51px;
+  padding-right: 48px;
+  padding-bottom: 38px;
+  background-color: #FAA61A;
+}
+
+.media__title {
+  width: 945px;
+  margin: 0;
+  padding: 0;
+  font-family: 'bebas_neuebold';
+  font-size: 100px;
+  text-align: center;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects__featured {
+  width: 635px;
+  height: 364px;
+  background-color: #030200;
+}
+
+.projects__description {
+  width: 280px;
+  height: 364px;
+  background-color: #FFFFFF;
+}
+
+.featured {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.featured__wrap-img {
+  position: relative;
+}
+
+.featured__img {
+  width: 435px;
+  height: 364px;
+}
+
+.featured__play-svg {
+  position: absolute;
+  top: 147px;
+  left: 208px;
+  cursor: pointer;
+}
+
+.featured__play-svg:hover, .featured__play-svg:focus {
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.75));
+          filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.75));
+}
+
+.featured__info {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 160px;
+  padding: 20px 20px;
+  background-color: #030200;
+}
+
+.featured__heading {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0 3px;
+  font-family: 'bebas_neuebold';
+  font-size: 20px;
+  color: #000000;
+  font-weight: normal;
+  background-color: #ffffff;
+}
+
+.featured__description {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding: 0 3px;
+  font-family: 'colaborate-thinregular';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.featured__description_mf {
+  font-size: 14px;
+}
+
+.featured__list {
+  position: absolute;
+  left: 25px;
+  bottom: 10px;
+}
+
+.featured__inscription {
+  position: absolute;
+  top: 17px;
+  left: -23px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: 'ciclefina_italic';
+  font-size: 28px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.list-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 281px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-slide__item {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.list-slide__link {
+  display: block;
+  position: relative;
+}
+
+.list-slide__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+.list-slide__link:hover::before, .list-slide__link:focus::before {
+  opacity: 0;
+}
+
+.list-slide__img {
+  display: block;
+  width: 87px;
+  height: 46px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.description__title {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  font-family: 'bebas_neuebold';
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.description__img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.description__text {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0 15px;
+  font-family: 'colaborate-regularregular';
+  font-size: 16px;
+}
+
+.description__button-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.description__button {
+  margin-right: 5px;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  padding-right: 33px;
+  background-color: #000000;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28px;
+  height: 100%;
+  background-color: #FAA61A;
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 12px;
+  height: 10px;
+  background-image: url(../img/arrow-right-2.png);
+}
+
+.button__text {
+  font-family: 'colaborate-regularregular';
+  font-size: 14px;
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
