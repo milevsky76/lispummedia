@@ -1,0 +1,162 @@
+.about
+    display: flex
+    // min-height: 373px
+    margin-bottom: 25px
+    &__services
+    &__know
+    &__contact
+
+.services
+    flex-shrink: 0
+    width: 286px
+    padding-top: 20px
+    padding-bottom: 26px 
+    border-right: 1px solid #CACACA
+    &__wrap
+        position: relative
+        min-height: 285px
+        padding: 20px 20px 20px 42px
+        border-top: 1px solid #CACACA
+        border-bottom: 1px solid #CACACA
+        &::before, &::after
+            content: ''
+            position: absolute
+            width: 30px
+            height: 30px
+            background-image: url(../img/angle.png)
+            z-index: 2
+        &::before
+            top: -11px
+            right: -9px
+        &::after
+            transform: scale(1, -1)
+            bottom: -12px
+            right: -9px
+    &__title
+        margin: 0
+        margin-bottom: 20px
+        padding: 0
+        +BebasR
+        font-size: 20px
+        &_color_ore
+            color: $text-color2
+    &__list
+        margin: 0
+        padding: 0
+        list-style: none
+    &__item
+        position: relative
+        padding-left: 35px
+        &:not(:last-child)
+            margin-bottom: 15px
+        &::before
+            content: ''
+            position: absolute
+            left: 3px
+            top: 1.35px
+            width: 21px
+            height: 17px
+            background-color: $text-color2
+        &::after
+            content: ''
+            position: absolute
+            left: 8px
+            top: 4.85px
+            width: 12px
+            height: 10px
+            background-image: url(../img/arrow-right-2.png)
+    &__link
+        +Fina
+        font-size: 18px
+        color: $text-color
+        &:hover, &:focus
+            text-decoration: underline
+
+.know
+    flex-shrink: 0
+    width: 421px
+    padding-top: 20px
+    padding-bottom: 26px 
+    border-right: 1px solid #CACACA
+    &__wrap
+        position: relative
+        min-height: 285px
+        padding: 20px 20px 20px 42px
+        border-top: 1px solid #CACACA
+        border-bottom: 1px solid #CACACA
+        &::before, &::after
+            content: ''
+            position: absolute
+            width: 30px
+            height: 30px
+            background-image: url(../img/angle.png)
+            z-index: 2
+        &::before
+            top: -11px
+            right: -9px
+        &::after
+            transform: scale(1, -1)
+            bottom: -12px
+            right: -9px
+    &__title
+        margin: 0
+        margin-bottom: 20px
+        padding: 0
+        +BebasR
+        font-size: 20px
+        &_color_ore
+            color: $text-color2
+    &__text
+        font-size: 16px
+        line-height: 24px
+    &__button-wrap
+        display: flex
+        justify-content: flex-end
+
+.contact
+    flex-shrink: 0
+    width: 335px
+    padding-top: 20px
+    padding-bottom: 26px
+    &__wrap
+        min-height: 285px
+        padding: 20px 34px 20px 49px
+        border-top: 1px solid #CACACA
+        border-bottom: 1px solid #CACACA
+    &__title
+        margin: 0
+        margin-bottom: 20px
+        padding: 0
+        +BebasR
+        font-size: 20px
+        &_color_ore
+            color: $text-color2
+    &__list
+        margin: 0
+        padding: 0
+        list-style: none
+    &__item
+        position: relative
+        height: 28px
+        &:not(:last-child)
+            margin-bottom: 7px            
+    &__text
+        display: inline-block
+        padding: 3px
+        margin-left: 43px
+        margin-bottom: 3px
+        font-size: 16px
+        color: #ffffff
+        background-color: #000000
+        &_beb
+            +BebasR
+    &__svg
+        position: absolute
+        overflow: hidden
+.svg-phone
+    left: 2px
+.svg-fax
+.svg-envelope
+    left: 2px
+.svg-house
+    left: 1px
