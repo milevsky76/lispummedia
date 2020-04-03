@@ -255,7 +255,6 @@ body {
 .container {
   width: 1044px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .main-header {
@@ -280,7 +279,7 @@ body {
 .main-navigation__subscribe {
   position: absolute;
   top: 0;
-  right: 15px;
+  right: 0;
 }
 
 .logo {
