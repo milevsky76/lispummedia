@@ -924,4 +924,43 @@ body {
 .svg-house {
   left: 1px;
 }
+
+.clients {
+  width: 952px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-left: 39px;
+  padding-right: 53px;
+}
+
+.clients__title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: 'bebas_neueregular';
+  font-size: 20px;
+}
+
+.clients__title_color_ore {
+  color: #FAA61A;
+}
+
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clients__img {
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */
