@@ -1,0 +1,36 @@
+.main-footer
+    padding-top: 65px
+    padding-bottom: 25px
+    background-color: $bg-color
+    &__log-menu
+        display: flex
+    &__copy
+        display: flex
+        justify-content: flex-end
+        +SourceR
+
+.logo
+    &_footer
+        flex-shrink: 0
+        margin-right: 20px
+        height: 32px
+    &__text
+        &_footer
+            font-size: 26px
+            line-height: 26px
+
+.site-navigation
+    &_footer
+        justify-content: flex-end
+        width: 100%
+        height: 100%
+        margin: 0
+        margin-bottom: 12px
+        border-bottom: 1px solid #CCCCCC
+    &__item
+        position: static
+        padding: 0
+        &:not(:first-child)
+            margin-left: 20px
+        &::before
+            display: none
