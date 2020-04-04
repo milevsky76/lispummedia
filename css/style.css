@@ -345,7 +345,7 @@ body {
   text-transform: uppercase;
 }
 
-.site-navigation__link:hover {
+.site-navigation__link:hover, .site-navigation__link:focus {
   color: #FAA61A;
 }
 
